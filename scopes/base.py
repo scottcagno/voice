@@ -11,6 +11,8 @@ name = "BASE-SCOPE"
 kind = "BASE"
 cmds = {	
 
+	"SAY"				:	[ bsh("./say.py") ],
+
 	"ALPHA"				:	[ typ("a") ],
 	"BRAVO"				:	[ typ("b") ],
 	"CHARLIE"			:	[ typ("c") ],
